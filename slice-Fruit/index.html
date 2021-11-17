@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html lang="fa">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Fruit Game</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable = yes">
+    <link rel="stylesheet" href="styling.css">
+</head>
+
+<body>
+    <!--container of whole! -->
+    <div id="container">
+        <!--Trials Left Div-->
+        <div id="trialsleft">
+            
+        </div>
+        <!-- Score Div -->
+        <div id="score">
+            score: <span id="scoreVal"> 0 </span>
+        </div>
+        <!-- Correct Message Div -->
+        
+        <!-- Question Div -->
+        <div id="fruitsContainer">
+            <img id="fruit" class="fruits">
+        </div>
+        <!-- instruction Message Div -->
+        <div id="instruction">
+            Catch as many as fruit you can!
+        </div>
+        
+        
+        <!--Start - Reset Btn -->
+        <div id="startreset">
+            Let's Start!
+        </div>
+        
+        
+        <!--Game Over Message-->
+        <div id="gameover">
+
+        </div>
+
+    </div>
+    
+    <audio id="sliceSound">
+        <source src="Audio/effectM.mp3">
+        <source src="Audio/effectM.ogg">
+    </audio>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="fruitJquery.js"></script>
+</body>
+
+</html>
